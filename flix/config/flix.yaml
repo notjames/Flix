@@ -1,0 +1,19 @@
+---
+templates: /home/notjames/templates
+
+mysql:
+    user: flixuser
+    pass: flix4lot*
+    db: flix
+
+# reference material
+# http://kentbrewster.com/netflix-api-explorer/
+# http://developer.netflix.com/docs/REST_API_Conventions#0_37461
+# http://developer.netflix.com/docs/REST_API_Reference#0_52696
+netflix:
+    url: http://api.netflix.com
+    oauth_consumer_key: 
+    oauth_secret_key: 
+    oauth_token: 
+    oauth_token_secret: 
+    application_name: flix
