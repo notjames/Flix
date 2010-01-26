@@ -1,9 +1,9 @@
 ---
-templates: /home/notjames/templates
+templates: /path/to/templates
 
 mysql:
     user: flixuser
-    pass: flix4lot*
+    pass: 
     db: flix
 
 # reference material
