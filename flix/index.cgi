@@ -1,6 +1,6 @@
 #!/usr/bin/perl -Tw
 
-use lib qw(/home/notjames/html/flix/lib);
+use lib qw(/opt/html/flix/lib);
 
 use DBI;
 use strict;
@@ -12,7 +12,7 @@ use WWW::Netflix::API;
 use HTML::Template::Expr;
 use CGI qw(:standard :FatalsToBrowser);
 
-my $config_hr = LoadFile('/home/notjames/config/flix.yaml');
+my $config_hr = LoadFile('/opt/html/flix/config/flix.yaml');
 my $dbh;
 
 if ( $dbh = mysql_connect() )
